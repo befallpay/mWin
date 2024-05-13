@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="rgb" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../release/rgb" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../code/rgb" />
+					<Add directory="../code/inc" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ms10_lib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../code/inc/mw_conf.h" />
+		<Unit filename="../code/rgb/rgb_b1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_b1.h" />
+		<Unit filename="../code/rgb/rgb_b8x.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_b8x.h" />
+		<Unit filename="../code/rgb/rgb_base.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_base.h" />
+		<Unit filename="../code/rgb/rgb_bmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_bmp.h" />
+		<Unit filename="../code/rgb/rgb_debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_debug.h" />
+		<Unit filename="../code/rgb/rgb_input.h" />
+		<Unit filename="../code/rgb/rgb_trans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../code/rgb/rgb_trans.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
